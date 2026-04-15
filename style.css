@@ -712,7 +712,7 @@ em {
 
 .filmstrip {
     overflow-x: auto;
-    padding: 0.5rem max(2rem, calc((100vw - var(--max-w)) / 2 + 2rem));
+    padding: 1.5rem 5%;
     cursor: grab;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
@@ -727,9 +727,11 @@ em {
 
 .filmstrip-track {
     display: flex;
-    gap: 1.2rem;
+    gap: 1.5rem;
     width: max-content;
-    padding-bottom: 1rem;
+    min-width: 100%;
+    justify-content: center;
+    padding-bottom: 1.5rem;
 }
 
 .film-card {
@@ -1162,7 +1164,7 @@ em {
 
     /* Filmstrip adjustments */
     .galeria { padding: 60px 0; }
-    .filmstrip-track { gap: 1rem; }
+    .filmstrip-track { gap: 1rem; justify-content: flex-start; }
     .film-card { height: 440px; width: 300px; }
 
     /* Processo */
