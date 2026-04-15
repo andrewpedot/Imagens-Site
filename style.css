@@ -263,13 +263,13 @@ em {
 .logo { flex-shrink: 0; }
 
 .logo img {
-    height: 70px;
+    height: 90px;
     object-fit: contain;
     transition: opacity 0.3s, height 0.3s ease;
 }
 
 #header.scrolled .logo img {
-    height: 60px;
+    height: 75px;
 }
 
 .logo img:hover { opacity: 0.75; }
@@ -1064,8 +1064,8 @@ em {
 
 @media (max-width: 768px) {
     /* Header */
-    .nav-inner { height: 80px; }
-    .logo img { height: 55px; }
+    .nav-inner { height: 90px; }
+    .logo img { height: 65px; }
     .nav-links, .nav-cta { display: none; }
     .hamburger { display: flex; }
     .mobile-nav { display: block; top: 80px; }
