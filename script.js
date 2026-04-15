@@ -131,15 +131,15 @@ document.addEventListener('DOMContentLoaded', () => {
             filmstrip.scrollLeft = scrollLeft - walk;
         };
 
-        filmstrip.addEventListener('mousedown',  dragStart);
-        filmstrip.addEventListener('touchstart', dragStart, { passive: true });
+        // Habilitar arraste apenas se NÃO for dispositivo touch para evitar conflito com scroll nativo
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
-        filmstrip.addEventListener('mouseup',    dragEnd);
-        filmstrip.addEventListener('mouseleave', dragEnd);
-        filmstrip.addEventListener('touchend',   dragEnd);
-
-        filmstrip.addEventListener('mousemove',  dragMove);
-        filmstrip.addEventListener('touchmove',  dragMove, { passive: false });
+        if (!isTouchDevice) {
+            filmstrip.addEventListener('mousedown',  dragStart);
+            filmstrip.addEventListener('mouseup',    dragEnd);
+            filmstrip.addEventListener('mouseleave', dragEnd);
+            filmstrip.addEventListener('mousemove',  dragMove);
+        }
 
         // Prevent accidental link/img drag
         filmstrip.querySelectorAll('img').forEach(img => {
