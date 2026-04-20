@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jsuniformes.com.br/sitemap.xml
+Sitemap: https://www.uniformesguarapuava.com.br/sitemap.xml
