@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ── Primary SEO ── -->
+    <title>Tabela de Medidas | JS Uniformes — Guarapuava PR</title>
+    <meta name="description"
+        content="Confira a tabela de medidas da JS Uniformes para camisas sociais e polos, masculinas e femininas. Saiba como tirar suas medidas corretamente.">
+    <meta name="author" content="JS Uniformes">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- ── Theme ── -->
+    <meta name="theme-color" content="#36454F">
+
+    <!-- ── Fonts ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ======== HEADER ======== -->
+    <header id="header" class="scrolled-always">
+        <nav class="nav-inner" aria-label="Menu principal">
+            <a href="index.html" class="logo" aria-label="JS Uniformes — Início">
+                <img src="logosemfundo.png" alt="JS Uniformes" id="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Início</a></li>
+                <li><a href="index.html#colecao">Coleção</a></li>
+                <li><a href="index.html#processo">Como Funciona</a></li>
+                <li><a href="tabela-medidas.html">Tabela de Medidas</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+            <a href="https://wa.me/5542999227778?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="btn btn-primary nav-cta" target="_blank" rel="noopener">Fale
+                Conosco</a>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <!-- Mobile Nav -->
+        <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+            <ul>
+                <li><a href="index.html#inicio">Início</a></li>
+                <li><a href="index.html#colecao">Coleção</a></li>
+                <li><a href="index.html#processo">Como Funciona</a></li>
+                <li><a href="tabela-medidas.html">Tabela de Medidas</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+                <li><a href="https://wa.me/5542999227778?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="btn btn-primary" target="_blank" rel="noopener">Fale
+                        Conosco</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="page-medidas">
+        <!-- ======== HERO ======== -->
+        <section class="medidas-hero">
+            <div class="medidas-hero-content reveal">
+                <h1>Tabela de <em>Medidas</em></h1>
+                <p>Encontre o tamanho ideal para o seu uniforme com o nosso guia prático.</p>
+            </div>
+        </section>
+
+        <!-- ======== INSTRUÇÕES ======== -->
+        <section class="medidas-instrucoes">
+            <div class="section-header reveal">
+                <span class="label-tag">Guia prático</span>
+                <h2>Como tirar suas <em>medidas</em></h2>
+                <p>Use uma fita métrica flexível, mantenha-a reta e não aperte.</p>
+            </div>
+            
+            <div class="instrucoes-grid reveal">
+                <div class="instrucao-card">
+                    <div class="instrucao-icon">1</div>
+                    <h3>Busto / Tórax</h3>
+                    <p>Meça a parte mais larga do busto/tórax, passando a fita por baixo dos braços.</p>
+                </div>
+                <div class="instrucao-card">
+                    <div class="instrucao-icon">2</div>
+                    <h3>Cintura</h3>
+                    <p>Meça ao redor da curvatura natural da cintura (logo acima do umbigo).</p>
+                </div>
+                <div class="instrucao-card">
+                    <div class="instrucao-icon">3</div>
+                    <h3>Quadril</h3>
+                    <p>Meça a parte mais larga do quadril, mantendo a fita paralela ao chão.</p>
+                </div>
+                <div class="instrucao-card">
+                    <div class="instrucao-icon">4</div>
+                    <h3>Comprimento / Manga</h3>
+                    <p>Manga: do ombro até o punho. Comprimento: do pescoço/ombro até a barra.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== TABELAS ======== -->
+        <section class="medidas-tabelas">
+            <div class="tabs-container reveal">
+                <button class="tab-btn active" onclick="openTab(event, 'tab-camisa')">Camisa</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-polo')">Polo</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-calca')">Calça</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-jaqueta')">Jaqueta</button>
+            </div>
+
+            <!-- TAB: CAMISA -->
+            <div id="tab-camisa" class="tab-content active">
+                <div class="tabelas-grid">
+                    <!-- Camisa Social Feminina -->
+                    <div class="tabela-wrapper">
+                        <h3>Camisa Social Feminina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Busto</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                        <th>Comprimento</th>
+                                        <th>Manga</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>38</td><td>84</td><td>70</td><td>92</td><td>61</td><td>58,5</td></tr>
+                                    <tr><td>40</td><td>88</td><td>74</td><td>96</td><td>62</td><td>59</td></tr>
+                                    <tr><td>42</td><td>92</td><td>78</td><td>100</td><td>63</td><td>60</td></tr>
+                                    <tr><td>44</td><td>96</td><td>82</td><td>104</td><td>64</td><td>60,5</td></tr>
+                                    <tr><td>46</td><td>100</td><td>88</td><td>108</td><td>65</td><td>61</td></tr>
+                                    <tr><td>48</td><td>104</td><td>90</td><td>112</td><td>66</td><td>61,5</td></tr>
+                                    <tr><td>50</td><td>108</td><td>96</td><td>116</td><td>67</td><td>62</td></tr>
+                                    <tr><td>52</td><td>112</td><td>100</td><td>120</td><td>68</td><td>62,5</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Camisa Social Masculina -->
+                    <div class="tabela-wrapper">
+                        <h3>Camisa Social Masculina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Tórax</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                        <th>Comprimento</th>
+                                        <th>Manga</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>38</td><td>96</td><td>88</td><td>98</td><td>72</td><td>62</td></tr>
+                                    <tr><td>40</td><td>100</td><td>92</td><td>102</td><td>73</td><td>63</td></tr>
+                                    <tr><td>42</td><td>104</td><td>96</td><td>106</td><td>74</td><td>63,5</td></tr>
+                                    <tr><td>44</td><td>108</td><td>100</td><td>110</td><td>75</td><td>64</td></tr>
+                                    <tr><td>46</td><td>112</td><td>104</td><td>114</td><td>76</td><td>64,5</td></tr>
+                                    <tr><td>48</td><td>116</td><td>108</td><td>118</td><td>77</td><td>65</td></tr>
+                                    <tr><td>50</td><td>120</td><td>112</td><td>122</td><td>78</td><td>65,5</td></tr>
+                                    <tr><td>52</td><td>124</td><td>116</td><td>126</td><td>79</td><td>66</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB: POLO -->
+            <div id="tab-polo" class="tab-content">
+                <div class="tabelas-grid">
+                    <!-- Camisa Polo Feminina -->
+                    <div class="tabela-wrapper">
+                        <h3>Camisa Polo Feminina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Busto</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                        <th>Comprimento</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>PP</td><td>78</td><td>60</td><td>84</td><td>60</td></tr>
+                                    <tr><td>P</td><td>80</td><td>64</td><td>88</td><td>60</td></tr>
+                                    <tr><td>M</td><td>88</td><td>68</td><td>96</td><td>61</td></tr>
+                                    <tr><td>G</td><td>96</td><td>76</td><td>100</td><td>62</td></tr>
+                                    <tr><td>GG</td><td>100</td><td>84</td><td>108</td><td>64</td></tr>
+                                    <tr><td>EG</td><td>104</td><td>92</td><td>112</td><td>65</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Camisa Polo Masculina -->
+                    <div class="tabela-wrapper">
+                        <h3>Camisa Polo Masculina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Tórax</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                        <th>Comprimento</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>P</td><td>92</td><td>82</td><td>92</td><td>72</td></tr>
+                                    <tr><td>M</td><td>100</td><td>92</td><td>100</td><td>73</td></tr>
+                                    <tr><td>G</td><td>108</td><td>100</td><td>108</td><td>74</td></tr>
+                                    <tr><td>GG</td><td>116</td><td>108</td><td>116</td><td>76</td></tr>
+                                    <tr><td>EG</td><td>124</td><td>116</td><td>124</td><td>78</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB: CALÇA -->
+            <div id="tab-calca" class="tab-content">
+                <div class="tabelas-grid">
+                    <!-- Calça Feminina -->
+                    <div class="tabela-wrapper">
+                        <h3>Calça Feminina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>P</td><td>64 - 68</td><td>88 - 92</td></tr>
+                                    <tr><td>M</td><td>72 - 76</td><td>96 - 100</td></tr>
+                                    <tr><td>G</td><td>80 - 84</td><td>104 - 108</td></tr>
+                                    <tr><td>GG</td><td>88 - 92</td><td>112 - 116</td></tr>
+                                    <tr><td>EG</td><td>96 - 100</td><td>120 - 124</td></tr>
+                                    <tr><td>EGG</td><td>104 - 108</td><td>128 - 132</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Calça Masculina -->
+                    <div class="tabela-wrapper">
+                        <h3>Calça Masculina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>P</td><td>72 - 76</td><td>88 - 92</td></tr>
+                                    <tr><td>M</td><td>80 - 84</td><td>96 - 100</td></tr>
+                                    <tr><td>G</td><td>88 - 92</td><td>104 - 108</td></tr>
+                                    <tr><td>GG</td><td>96 - 100</td><td>112 - 116</td></tr>
+                                    <tr><td>EG</td><td>104 - 108</td><td>120 - 124</td></tr>
+                                    <tr><td>EGG</td><td>112 - 116</td><td>128 - 132</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB: JAQUETA -->
+            <div id="tab-jaqueta" class="tab-content">
+                <div class="tabelas-grid">
+                    <!-- Jaqueta Masculina -->
+                    <div class="tabela-wrapper">
+                        <h3>Jaqueta Masculina</h3>
+                        <div class="table-responsive">
+                            <table class="tabela-estilizada">
+                                <thead>
+                                    <tr>
+                                        <th>Tamanho</th>
+                                        <th>Tórax</th>
+                                        <th>Cintura</th>
+                                        <th>Quadril</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>P</td><td>88 - 92</td><td>72 - 76</td><td>88 - 92</td></tr>
+                                    <tr><td>M</td><td>96 - 100</td><td>80 - 84</td><td>96 - 100</td></tr>
+                                    <tr><td>G</td><td>104 - 108</td><td>88 - 92</td><td>104 - 108</td></tr>
+                                    <tr><td>GG</td><td>112 - 116</td><td>96 - 100</td><td>112 - 116</td></tr>
+                                    <tr><td>EG</td><td>120 - 124</td><td>104 - 108</td><td>120 - 124</td></tr>
+                                    <tr><td>EGG</td><td>128 - 132</td><td>112 - 116</td><td>128 - 132</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabela-aviso reveal">
+                <p><em>* Medidas em centímetros (cm). As medidas podem ter variações de tolerância de até 2cm.</em></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p><strong>JS Uniformes</strong> — Guarapuava, PR</p>
+                <p>CNPJ: 00.530.325/0001-86</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html#inicio">Início</a></li>
+                    <li><a href="index.html#colecao">Coleção</a></li>
+                    <li><a href="index.html#processo">Como Funciona</a></li>
+                    <li><a href="tabela-medidas.html">Tabela de Medidas</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>Atendimento comercial especializado para empresas de todos os portes.</p>
+                <a href="https://wa.me/5542999227778?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="footer-wa" target="_blank" rel="noopener">WhatsApp →</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 JS Uniformes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Ensure header has scrolled class when page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("header").classList.add("scrolled");
+        });
+
+        // Tabs functionality
+        function openTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            
+            // Hide all tab contents
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            
+            // Remove active class from buttons
+            tablinks = document.getElementsByClassName("tab-btn");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+
+</html>
